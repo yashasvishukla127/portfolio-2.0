@@ -21,16 +21,6 @@ export default function Home() {
       
       <Header/>  
 
-
-
-
-
-
-
-
-
-
-
       
   
      <section id='hero' className='snap-start'>
@@ -47,6 +37,12 @@ export default function Home() {
 
       <section id='skills' className='snap-start'>
         <Skills/>
+      </section>
+
+      <section>
+        
+        
+        
       </section>
        {/*skills */}
       {/* projects */}

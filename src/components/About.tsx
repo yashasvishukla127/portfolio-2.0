@@ -26,7 +26,7 @@ export default function About({}: Props) {
         }}
         src='/programmer.jpg'
         className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-contain
-        md:rounded-lg md:w-64 md:h-90 xl:w-[1800px] xl:h-[2000px] xl:rounded-xl'/></Tilt>
+        md:rounded-lg md:w-64 md:h-90 xl:w-[2800px] xl:h-[3000px] xl:rounded-xl'/></Tilt>
 
         <div className='space-y-10 px-0 md:px-10'>
           <h4 className='text-4xl font-semibold tracking-[12px] text-[#161A30]'>
