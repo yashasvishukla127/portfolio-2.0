@@ -2,6 +2,14 @@
 import React from 'react'
 import {motion } from 'framer-motion'
 import Skill from './Skill'
+import Skill2 from './Skill2'
+import Skill3 from './Skill3' 
+import Skill4 from './Skill4'  //1
+import Skill5 from './Skill5'
+import Skill6 from './Skill6'
+import Skill7 from './Skill7'
+import Skill8 from './Skill8'
+import Skill9 from './Skill9'
 
 type Props = {}
 
@@ -30,17 +38,19 @@ function Skills({}: Props) {
             Hover over for currently skill proficiency
          </h3> 
          <div className='grid grid-cols-3 gap-5 justify-center items-center text-center'>
+          <Skill3/>
           <Skill/>
-          <Skill/>
-          <Skill/>
-          <Skill/>
+          <Skill2/> {/*2 */}
+          
+          <Skill4/>
 
-          <Skill/>
-          <Skill/>
-          <Skill/>
-          <Skill/>
+          <Skill5/>
+          <Skill9/>
+          <Skill6/>
+          <Skill7/>
+          <Skill8/>
 
-          <Skill/>
+          
         </div>
       </motion.div>
 
