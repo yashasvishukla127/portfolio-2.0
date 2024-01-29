@@ -7,8 +7,9 @@ type Props = {}
 
 function Header({}: Props) {
   return (
+  
     <header className=' sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
-        <motion.div 
+      <motion.div 
         initial={{
             x:-500,
             opacity:0,
@@ -25,26 +26,30 @@ function Header({}: Props) {
         }}
         
         className='flex flex-row items-center '> 
-        
+          
+
+
+          <a href='https://github.com/yashasvishukla127' target='_blank' rel='noopener noreferrer'>
+
             <SocialIcon url='https://github.com/'
             fgColor='gray' bgColor='transparent'
-            className="hover:scale-150 transform transition-transform duration-300"/>
-
+            className="hover:scale-150 hover:bg-blue-100 transform transition-transform duration-300"/>
+          </a>
             <SocialIcon url='https://www.linkedin.com'
             fgColor='purple' bgColor='transparent'
             className="hover:scale-150 transform transition-transform duration-300"/>
 
             <SocialIcon url='https://www.twitter.com'
             fgColor='blue' bgColor='transparent'
-            className="hover:scale-150 transform transition-transform duration-300"/>
+            className="hover:scale-150 hover:bg-[#cbd5e1] transform transition-transform duration-300"/>
 
             <SocialIcon url='https://www.youtube.com'
             fgColor='red' bgColor='transparent' 
             className="hover:scale-150 transform transition-transform duration-300"/>
 
-        </motion.div>
+      </motion.div>
 
-        <motion.div
+      <motion.div
         initial={{
           x:500,
           opacity:0,
@@ -78,11 +83,12 @@ function Header({}: Props) {
 
               
 
-        </motion.div>
+      </motion.div>
 
   
 
     </header>
+  
   )
 }
 

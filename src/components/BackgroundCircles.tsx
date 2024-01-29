@@ -22,7 +22,7 @@ export default function ({}: Props) {
         <div className=' absolute border border-[#86b1f1] rounded-full h-[100px] w-[100px] mt-52 animate-ping'/>
         <div className=' absolute border border-[#86b1f1] rounded-full h-[200px] w-[200px] mt-52 animate-ping'/>
         <div className='absolute rounded full border-[#F7AB0A] opacity-[20] h-[350px] w-[350px] mt-52 animate-pulse'/>
-        <div className='absolute rounded full border-[#F7AB0A] opacity-[10] h-[400px] w-[400px] mt-52 '/>
+        <div className='absolute rounded full border-[#F7AB0A] opacity-[10] h-[400px] w-[400px] mt-52  animate-spin'/>
     </motion.div>
     
   )

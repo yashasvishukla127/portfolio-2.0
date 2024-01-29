@@ -41,6 +41,8 @@ function Skill2({directionLeft}: Props) {   //1 change for skill
 
         
 
+        
+
     </div>
   )
 }
