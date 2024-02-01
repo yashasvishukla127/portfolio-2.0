@@ -63,6 +63,8 @@ const Hero = (props: Props) => {
   )
 }
 
+export default Hero
+
 {/* 
             <h1 className=' uppercase text-2xl text-[#0f0f0f]
              pb-2 tracking-[15px] translate-y-20 '>software engineer </h1> */}
@@ -78,7 +80,7 @@ const Hero = (props: Props) => {
 
 
         
-        export default function Hero({}: Props) {
+        // export default function Hero({}: Props) {
             //     const[text,count]  = useTypewriter({
             //         words:[
             //             "hello i am Yashasvi Shukla",

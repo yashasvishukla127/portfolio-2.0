@@ -29,12 +29,12 @@ function Header({}: Props) {
           
 
 
-          <a href='https://github.com/yashasvishukla127' target='_blank' rel='noopener noreferrer'>
+          
 
             <SocialIcon url='https://github.com/'
             fgColor='gray' bgColor='transparent'
             className="hover:scale-150 hover:bg-blue-100 transform transition-transform duration-300"/>
-          </a>
+          
             <SocialIcon url='https://www.linkedin.com'
             fgColor='purple' bgColor='transparent'
             className="hover:scale-150 transform transition-transform duration-300"/>
