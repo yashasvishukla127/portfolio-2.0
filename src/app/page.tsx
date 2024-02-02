@@ -9,47 +9,50 @@ import night2 from '../assets/night2.jpg'
 import About from '@/components/About'
 import WorkExperience from '@/components/WorkExperience'
 import Skills from '@/components/Skills'
-import Projects from '@/components/Projects'
+import ExperienceReact from '@/components/experienceReact'
+
 
 export default function Home() {
   return (
-    <div className=' object-contain bg-cover text-slate-400 h-screen
-   snap-y snap-mandatory overflow-scroll z-0'>
-      
-      <Head>
-          <title> yash portfolio</title>
-      </Head>
-      
-      <Header/>  
+  <> {/* the only solution for animatin related was to use <> instead of <div> for whole body */}   
+      {/* <div className=' object-contain bg-cover text-slate-400 h-screen
+    snap-y snap-mandatory overflow-scroll z-0'> */}
+        
+        <Head>
+            <title> yash portfolio</title>
+        </Head>
+        
+        <Header/>  
 
-      
-  
-     <section id='hero' className='snap-start'>
+        
+    
+      <section id='hero' className='snap-start'>
         <Hero/>
-     </section>
+      </section>
 
-     <section id='about' className='snap-center'>
+      <section id='about' className='snap-center'>
         <About/>
-     </section>
-      
+      </section>
+
       <section id='experience' className='snap-center'>
         <WorkExperience/>
       </section>
 
       <section id='skills' className='snap-start'>
         <Skills/>
-      </section >
-        
-      <section id='projects' className='snap-start'>
-        <Projects/>
       </section>
+          
+       <main  >
+          <ExperienceReact/>
+        </main>
 
 
-      {/*skills */}
-      {/* projects */}
-      {/* contact */}
 
-    </div>
+
+
+
+      
+    </>  
   )
 }
 
